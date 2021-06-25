@@ -5,12 +5,57 @@
 }
 
 /* COMMON */
+body{
+    margin: auto;
+    width: 50%;
+}
 
+/* .clearfix::after{
+	content: "";
+	display: table;
+	clear: both;
+} */
 
 /* HEADER */
 
+header{
+    background-color: yellowgreen;
+    height: 100px;
+    width: 100%;
+}
 
 /* MAIN */
+
+.slider-box{
+    background-color: teal;
+    height: 400px;
+    width: 100%;
+    margin: 20px 0 20px 0;
+    position: relative;
+}
+
+.col-left{
+    float: left;
+    background-color: tomato;
+    width: 20%;
+    height: 300px;
+}
+
+.col-right{
+    float: left;
+    background-color: yellow;
+    width: 20%;
+    height: 300px;
+
+}
+
+.col-center{
+    float: left;
+    background-color: rgb(253, 144, 18);
+    width: 60%;
+    height: 300px;
+
+}
 
 
 /* FOOTER */
