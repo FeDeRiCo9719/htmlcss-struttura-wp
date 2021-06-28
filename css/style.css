@@ -5,22 +5,22 @@
 }
 
 /* COMMON */
-body{
+.container{
     margin: auto;
-    width: 50%;
+    width: 80%;
 }
 
-/* .clearfix::after{
+.clearfix::after{
 	content: "";
 	display: table;
 	clear: both;
-} */
+}
 
 /* HEADER */
 
 header{
     background-color: yellowgreen;
-    height: 100px;
+    height: 150px;
     width: 100%;
 }
 
@@ -28,34 +28,57 @@ header{
 
 .slider-box{
     background-color: teal;
-    height: 400px;
+    height: 600px;
     width: 100%;
     margin: 20px 0 20px 0;
     position: relative;
 }
 
-.col-left{
+section{
+    background-color: rgb(191, 255, 249);
+}
+
+/* titolo */
+.titolo{
+    background-color: rgb(255, 150, 64);
+    height: 80px;
+}
+
+/* colonne */
+
+.row{
+    padding: 20px 0px;
+}
+
+.col-left, .col-center, .col-right{
     float: left;
-    background-color: tomato;
+    /* height: 300px; */
+    padding: 10px;
+}
+
+.col-left, .col-right{
     width: 20%;
-    height: 300px;
+}
+
+.col-left{
+    background-color: tomato;
 }
 
 .col-right{
-    float: left;
     background-color: yellow;
-    width: 20%;
-    height: 300px;
-
 }
 
 .col-center{
-    float: left;
     background-color: rgb(253, 144, 18);
-    width: 60%;
-    height: 300px;
+    width: calc(60% - 40px);
+    margin: 0px 20px;
 
 }
 
 
 /* FOOTER */
+.footer{
+    background-color: violet;
+    height: 100px;
+    margin-bottom: 40px;
+}
